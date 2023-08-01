@@ -4,12 +4,25 @@ import 'package:flutter/material.dart';
 
 //Copy this CustomPainter code to the Bottom of the File
 class tow_cercle extends CustomPainter {
+  final Color color;
+  List<Color> colorList = [
+    Colors.white,
+    Colors.red,
+    Colors.green,
+    Colors.blue,
+    Colors.orange,
+    Colors.purple,
+    Colors.yellow,
+    // Add more colors as needed
+  ];
+
+  tow_cercle(this.color);
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint_0_stroke = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 2;
-    paint_0_stroke.color = Color(0xff1d1d1b).withOpacity(1.0);
+    paint_0_stroke.color = Color(0xff1d1d1b).withOpacity(0);
     canvas.drawRRect(
         RRect.fromRectAndCorners(
             Rect.fromLTWH(size.width * 0.2079000, size.height * 0.1619000,
@@ -35,7 +48,7 @@ class tow_cercle extends CustomPainter {
     Paint paint_1_stroke = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 2;
-    paint_1_stroke.color = Color(0xff1d1d1b).withOpacity(1.0);
+    paint_1_stroke.color = Color(0xff1d1d1b).withOpacity(0);
     canvas.drawRRect(
         RRect.fromRectAndCorners(
             Rect.fromLTWH(size.width * 0.5000000, size.height * 0.4014000,
@@ -47,7 +60,7 @@ class tow_cercle extends CustomPainter {
         paint_1_stroke);
 
     Paint paint_1_fill = Paint()..style = PaintingStyle.fill;
-    paint_1_fill.color = ui.Color.fromARGB(0, 255, 255, 255).withOpacity(1.0);
+    paint_1_fill.color = color.withOpacity(1.0);
     canvas.drawRRect(
         RRect.fromRectAndCorners(
             Rect.fromLTWH(size.width * 0.5000000, size.height * 0.4014000,

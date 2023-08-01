@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:game1/Logo/cercle.dart';
 import 'package:game1/Logo/tow_cercle.dart';
+import 'package:game1/Start/loading.dart';
 import 'package:game1/Start/parreglage.dart';
 import 'package:game1/Start/parniveau.dart';
 import 'package:game1/Start/start.dart';

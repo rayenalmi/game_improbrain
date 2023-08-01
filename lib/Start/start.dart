@@ -20,7 +20,7 @@ class start extends StatelessWidget {
               bottom: 239,
             ),
             clipBehavior: Clip.antiAlias,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               gradient: LinearGradient(
                 begin: Alignment(0.00, -1.00),
                 end: Alignment(0, 1),

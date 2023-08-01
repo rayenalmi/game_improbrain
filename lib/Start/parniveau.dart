@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game1/Start/loading.dart';
 
 class parniveau extends StatefulWidget {
   const parniveau({super.key});
@@ -315,6 +316,12 @@ class _parniveauState extends State<parniveau> {
             ),
           ),
           InkWell(
+            onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const loading(),
+              ),
+            ),
             child: BigButtun("Commencer", context),
           ),
         ]),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game1/Start/loading.dart';
 
 class parreglage extends StatefulWidget {
   const parreglage({super.key});
@@ -748,7 +749,7 @@ class _parreglageState extends State<parreglage> {
                                 });
                               },
                               child: ChoiceButton(
-                                  tache[1], tacheSelected == Tempsmem[1]),
+                                  tache[1], tacheSelected == tache[1]),
                             ),
                           ],
                         ),
@@ -765,7 +766,7 @@ class _parreglageState extends State<parreglage> {
                                 });
                               },
                               child: ChoiceButton(
-                                  tache[2], tacheSelected == Tempsmem[2]),
+                                  tache[2], tacheSelected == tache[2]),
                             ),
                             SizedBox(
                               width: 10,
@@ -783,7 +784,15 @@ class _parreglageState extends State<parreglage> {
               const SizedBox(
                 height: 20,
               ),
-              BigButtun("Commancer", context),
+              InkWell(
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const loading(),
+                  ),
+                ),
+                child: BigButtun("Commancer", context),
+              ),
               //list aaray
             ],
           )),
