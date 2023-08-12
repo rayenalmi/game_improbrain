@@ -85,7 +85,7 @@ class _chooseformState extends State<chooseform> {
             ),
             CustomPaint(
                 size: const Size(100, 100),
-                foregroundPainter: testLogo() // tow_cercle(colorsSelected),
+                foregroundPainter: testLogo(0) // tow_cercle(colorsSelected),
                 )
           ],
         ),
