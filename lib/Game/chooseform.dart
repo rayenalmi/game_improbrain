@@ -80,6 +80,12 @@ class _chooseformState extends State<chooseform> {
                 widgetColor(6),
               ],
             ),
+            Image.asset(
+              'assets/sep/sep1.png',
+              width: MediaQuery.of(context).size.width * 0.2,
+              height: MediaQuery.of(context).size.height * 0.2,
+              scale: 0.5,
+            ),
             const SizedBox(
               height: 200,
             ),

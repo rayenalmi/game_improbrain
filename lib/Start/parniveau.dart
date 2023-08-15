@@ -146,7 +146,7 @@ class _parniveauState extends State<parniveau> {
                           gradient: LinearGradient(
                             begin: Alignment(-1.00, -0.00),
                             end: Alignment(1, 0),
-                            colors: [Color(0xFFFF0000), Color(0xFFF1E70C)],
+                            colors: [Color(0xFFF1E70C), Color(0xFFFF0000)],
                           ),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.only(
@@ -220,7 +220,7 @@ class _parniveauState extends State<parniveau> {
                           gradient: LinearGradient(
                             begin: Alignment(-1.00, -0.00),
                             end: Alignment(1, 0),
-                            colors: [Color(0xFFFF0000), Color(0xFFF1E70C)],
+                            colors: [Color(0xFFF1E70C), Color(0xFFFF0000)],
                           ),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.only(
@@ -247,7 +247,7 @@ class _parniveauState extends State<parniveau> {
                             gradient: LinearGradient(
                               begin: Alignment(-1.00, -0.00),
                               end: Alignment(1, 0),
-                              colors: [Color(0xFF14FF00), Color(0xFFF1E70C)],
+                              colors: [Color(0xFFF1E70C), Color(0xFF14FF00)],
                             ),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.only(
