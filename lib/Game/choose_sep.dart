@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:game1/Game/choose_sep.dart';
 import 'package:game1/Logo/testlogo1.dart';
 import 'package:game1/Logo/tow_cercle.dart';
 
 import '../Start/loading.dart';
 
-class chooseform extends StatefulWidget {
-  const chooseform({super.key});
+class choose_sep extends StatefulWidget {
+  const choose_sep({super.key});
 
   @override
-  State<chooseform> createState() => _chooseformState();
+  State<choose_sep> createState() => _choose_sepState();
 }
 
-class _chooseformState extends State<chooseform> {
+class _choose_sepState extends State<choose_sep> {
   Widget BigButtun(String s, BuildContext context) {
     return Center(
       child: Container(
@@ -51,28 +50,39 @@ class _chooseformState extends State<chooseform> {
   }
 
   final List<Color> colorList = [
-    Colors.white,
-    Colors.red,
-    Colors.green,
-    Colors.blue,
-    Colors.orange,
-    Colors.purple,
-    Colors.yellow,
-    // Add more colors as needed
+    Color(0xFFF1E70C),
+    Colors.grey,
+    Color(0xFF000000),
+    Color(0xFF4361FF),
+    Color(0xFFFF4545),
+    Color(0xFF17AFBD),
+    Color(0xFFEE83FF),
+    Color(0xFFFFA843),
+    Color(0xFFB04A00),
+    // Add more colors as neededs
   ];
 
-  Color colorsSelected = Colors.white;
+  Color? colorsSelected1;
+  Color? colorsSelected2;
 
-  Widget widgetColor(int i) {
-    bool select;
-    select = colorsSelected == colorList[i];
+  Widget widgetColor(int i, int colornumber) {
+    bool select = false;
+    if (colornumber == 1) {
+      select = colorsSelected1 == colorList[i];
+    } else if (colornumber == 2) {
+      select = colorsSelected2 == colorList[i];
+    }
     return Container(
       padding: const EdgeInsets.only(left: 5, right: 5),
       color: Colors.transparent,
       child: InkWell(
         onTap: () {
           setState(() {
-            colorsSelected = colorList[i];
+            if (colornumber == 1) {
+              colorsSelected1 = colorList[i];
+            } else {
+              colorsSelected2 = colorList[i];
+            }
           });
         },
         child: Container(
@@ -83,38 +93,38 @@ class _chooseformState extends State<chooseform> {
               width: select ? 4.0 : 0,
             ),
           ),
-          width: 45,
-          height: 45,
+          width: 33,
+          height: 33,
         ),
       ),
     );
   }
 
-  int numberShape = 0;
-  Widget widgetShape(int i) {
+  int numberSep = 0;
+  Widget widgetSep(int i) {
     bool select;
-    select = numberShape == i;
+    select = numberSep == i;
     return Container(
       padding: const EdgeInsets.only(left: 5, right: 5),
       color: Colors.transparent,
       child: InkWell(
         onTap: () {
           setState(() {
-            numberShape = i;
+            numberSep = i;
           });
         },
         child: Container(
           decoration: BoxDecoration(
             // color: colorList[i],
             border: Border.all(
-              color: Colors.black,
+              color: Colors.amberAccent,
               width: select ? 4.0 : 0,
             ),
           ),
           width: 70,
           height: 70,
           child: Image.asset(
-            'assets/shapes/shape$i.png',
+            'assets/sep/sep$i.png',
             width: MediaQuery.of(context).size.width * 0.2,
             height: MediaQuery.of(context).size.height * 0.2,
             scale: 0.5,
@@ -141,71 +151,85 @@ class _chooseformState extends State<chooseform> {
             SizedBox(
               height: 50,
             ),
-            /*Row(
-              children: [
-                SizedBox(
-                  width: 20,
-                ),
-                widgetColor(0),
-                widgetColor(1),
-                widgetColor(3),
-                widgetColor(4),
-                widgetColor(5),
-                widgetColor(6),
-              ],
-            ),*/
-            Row(
-              children: [
-                SizedBox(
-                  width: 20,
-                ),
-                widgetShape(1),
-                widgetShape(2),
-                widgetShape(3),
-                widgetShape(4),
-              ],
+            Container(
+              color: Colors.white,
+              width: MediaQuery.sizeOf(context).width * 0.94,
+              height: 40,
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: 20,
+                  ),
+                  widgetColor(0, 1),
+                  widgetColor(1, 1),
+                  widgetColor(3, 1),
+                  widgetColor(4, 1),
+                  widgetColor(5, 1),
+                  widgetColor(6, 1),
+                  widgetColor(7, 1),
+                  widgetColor(8, 1),
+                ],
+              ),
             ),
             const SizedBox(
               height: 20,
             ),
+            Container(
+              color: Colors.white,
+              width: MediaQuery.sizeOf(context).width * 0.94,
+              height: 40,
+              child: Row(
+                children: [
+                  const SizedBox(
+                    width: 20,
+                  ),
+                  widgetColor(0, 2),
+                  widgetColor(1, 2),
+                  widgetColor(3, 2),
+                  widgetColor(4, 2),
+                  widgetColor(5, 2),
+                  widgetColor(6, 2),
+                  widgetColor(7, 2),
+                  widgetColor(8, 2),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
             Row(
               children: [
                 const SizedBox(
-                  width: 20,
+                  width: 30,
                 ),
-                widgetShape(5),
-                widgetShape(6),
-                widgetShape(7),
-                widgetShape(8),
+                widgetSep(1),
+                widgetSep(2),
+                widgetSep(3),
+                widgetSep(4),
               ],
             ),
             const SizedBox(
-              height: 20,
+              height: 30,
             ),
             Row(
               children: [
                 const SizedBox(
-                  width: 20,
+                  width: 30,
                 ),
-                widgetShape(9),
-                widgetShape(10),
-                widgetShape(11),
-                widgetShape(12),
+                widgetSep(5),
+                widgetSep(6),
+                widgetSep(7),
+                widgetSep(8),
               ],
             ),
-            /*Image.asset(
-              'assets/sep/sep1.png',
-              width: MediaQuery.of(context).size.width * 0.2,
-              height: MediaQuery.of(context).size.height * 0.2,
-              scale: 0.5,
-            ),*/
             const SizedBox(
               height: 100,
             ),
-            /*CustomPaint(
+            CustomPaint(
                 size: const Size(150, 150),
-                foregroundPainter: testLogo(0) // tow_cercle(colorsSelected),
-                ),*/
+                foregroundPainter: testLogo(colorsSelected1, colorsSelected2,
+                    numberSep) // tow_cercle(colorsSelected),
+                ),
             const SizedBox(
               height: 120,
             ),
@@ -213,10 +237,10 @@ class _chooseformState extends State<chooseform> {
               onTap: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const choose_sep(),
+                  builder: (context) => const loading(),
                 ),
               ),
-              child: BigButtun("Choose Form", context),
+              child: BigButtun("Commencer", context),
             ),
           ],
         ),

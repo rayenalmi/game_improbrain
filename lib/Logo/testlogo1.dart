@@ -6,8 +6,23 @@ import 'package:flutter/material.dart';
 
 //Copy this CustomPainter code to the Bottom of the File
 class testLogo extends CustomPainter {
-  final int numshape;
-  testLogo(this.numshape);
+  Color? mainColor;
+  Color? secondColor;
+  final int sep;
+  testLogo(this.mainColor, secondColor, this.sep);
+
+  final List<Color> colorList = [
+    Color(0xFFF1E70C),
+    Colors.grey,
+    Color(0xFF000000),
+    Color(0xFF4361FF),
+    Color(0xFFFF4545),
+    Color(0xFF17AFBD),
+    Color(0xFFEE83FF),
+    Color(0xFFFFA843),
+    Color(0xFFB04A00),
+    // Add more colors as neededs
+  ];
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -47,7 +62,7 @@ class testLogo extends CustomPainter {
     canvas.drawPath(path_0, paint_0_stroke);
 
     Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffffffff).withOpacity(1.0);
+    paint_0_fill.color = mainColor ?? Color(0xffffffff).withOpacity(1.0);
     canvas.drawPath(path_0, paint_0_fill);
 
     Path path_1 = Path();
@@ -84,9 +99,9 @@ class testLogo extends CustomPainter {
     path_1.close();
 
     Paint paint_1_fill = Paint()..style = PaintingStyle.fill;
-    paint_1_fill.color = numshape == 0
+    paint_1_fill.color = sep != 1
         ? Color(0xfffbb040).withOpacity(0)
-        : Color(0xfffbb040).withOpacity(1.0);
+        : Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_1, paint_1_fill);
 
     Path path_2 = Path();
@@ -98,9 +113,9 @@ class testLogo extends CustomPainter {
     path_2.close();
 
     Paint paint_2_fill = Paint()..style = PaintingStyle.fill;
-    paint_2_fill.color = numshape == 0
+    paint_2_fill.color = sep != 8
         ? Color(0xfff7941d).withOpacity(0)
-        : Color(0xfff7941d).withOpacity(1.0);
+        : Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_2, paint_2_fill);
 
     Path path_3 = Path();
@@ -162,9 +177,9 @@ class testLogo extends CustomPainter {
     path_3.close();
 
     Paint paint_3_fill = Paint()..style = PaintingStyle.fill;
-    paint_3_fill.color = numshape == 0
+    paint_3_fill.color = sep != 3
         ? Color(0xfff15a29).withOpacity(0)
-        : Color(0xfff15a29).withOpacity(1.0);
+        : Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_3, paint_3_fill);
 
     Path path_4 = Path();
@@ -204,9 +219,9 @@ class testLogo extends CustomPainter {
     path_4.close();
 
     Paint paint_4_fill = Paint()..style = PaintingStyle.fill;
-    paint_4_fill.color = numshape == 0
+    paint_4_fill.color = sep != 3
         ? Color(0xfff15a29).withOpacity(0)
-        : Color(0xfff15a29).withOpacity(1.0);
+        : Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_4, paint_4_fill);
 
     Path path_5 = Path();
@@ -252,9 +267,9 @@ class testLogo extends CustomPainter {
     path_5.close();
 
     Paint paint_5_fill = Paint()..style = PaintingStyle.fill;
-    paint_5_fill.color = numshape == 0
+    paint_5_fill.color = sep != 3
         ? Color(0xfff15a29).withOpacity(0)
-        : Color(0xfff15a29).withOpacity(1.0);
+        : Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_5, paint_5_fill);
 
     Path path_6 = Path();
@@ -283,9 +298,9 @@ class testLogo extends CustomPainter {
     path_6.close();
 
     Paint paint_6_fill = Paint()..style = PaintingStyle.fill;
-    paint_6_fill.color = numshape == 0
+    paint_6_fill.color = sep != 3
         ? Color(0xfff15a29).withOpacity(0)
-        : Color(0xfff15a29).withOpacity(1.0);
+        : Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_6, paint_6_fill);
   }
 
