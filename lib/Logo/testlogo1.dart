@@ -9,7 +9,7 @@ class testLogo extends CustomPainter {
   Color? mainColor;
   Color? secondColor;
   final int sep;
-  testLogo(this.mainColor, secondColor, this.sep);
+  testLogo(this.mainColor, this.secondColor, this.sep);
 
   final List<Color> colorList = [
     Color(0xFFF1E70C),
@@ -101,7 +101,7 @@ class testLogo extends CustomPainter {
     Paint paint_1_fill = Paint()..style = PaintingStyle.fill;
     paint_1_fill.color = sep != 1
         ? Color(0xfffbb040).withOpacity(0)
-        : Colors.grey.withOpacity(1.0);
+        : (secondColor ?? Colors.grey.withOpacity(1.0));
     canvas.drawPath(path_1, paint_1_fill);
 
     Path path_2 = Path();
@@ -115,7 +115,7 @@ class testLogo extends CustomPainter {
     Paint paint_2_fill = Paint()..style = PaintingStyle.fill;
     paint_2_fill.color = sep != 8
         ? Color(0xfff7941d).withOpacity(0)
-        : Colors.grey.withOpacity(1.0);
+        : secondColor ?? Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_2, paint_2_fill);
 
     Path path_3 = Path();
@@ -179,7 +179,7 @@ class testLogo extends CustomPainter {
     Paint paint_3_fill = Paint()..style = PaintingStyle.fill;
     paint_3_fill.color = sep != 3
         ? Color(0xfff15a29).withOpacity(0)
-        : Colors.grey.withOpacity(1.0);
+        : secondColor ?? Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_3, paint_3_fill);
 
     Path path_4 = Path();
@@ -221,7 +221,7 @@ class testLogo extends CustomPainter {
     Paint paint_4_fill = Paint()..style = PaintingStyle.fill;
     paint_4_fill.color = sep != 3
         ? Color(0xfff15a29).withOpacity(0)
-        : Colors.grey.withOpacity(1.0);
+        : secondColor ?? Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_4, paint_4_fill);
 
     Path path_5 = Path();
@@ -269,7 +269,7 @@ class testLogo extends CustomPainter {
     Paint paint_5_fill = Paint()..style = PaintingStyle.fill;
     paint_5_fill.color = sep != 3
         ? Color(0xfff15a29).withOpacity(0)
-        : Colors.grey.withOpacity(1.0);
+        : secondColor ?? Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_5, paint_5_fill);
 
     Path path_6 = Path();
@@ -300,7 +300,7 @@ class testLogo extends CustomPainter {
     Paint paint_6_fill = Paint()..style = PaintingStyle.fill;
     paint_6_fill.color = sep != 3
         ? Color(0xfff15a29).withOpacity(0)
-        : Colors.grey.withOpacity(1.0);
+        : secondColor ?? Colors.grey.withOpacity(1.0);
     canvas.drawPath(path_6, paint_6_fill);
   }
 
