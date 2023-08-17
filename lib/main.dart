@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:game1/Logo/cercle.dart';
-import 'package:game1/Logo/tow_cercle.dart';
-import 'package:game1/Start/loading.dart';
-import 'package:game1/Start/parreglage.dart';
-import 'package:game1/Start/parniveau.dart';
+import 'package:game1/Shapes/shape1.dart';
+
 import 'package:game1/Start/start.dart';
 
 void main() {
@@ -37,16 +34,14 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home:
-            const start() /* Container(
+        home: /*const start()*/ Container(
           color: const Color(0xffffffff),
           child: RepaintBoundary(
               child: CustomPaint(
             size: const Size(250, 250),
-            foregroundPainter: tow_cercle(),
+            foregroundPainter: shape1(null, null, 0),
           )),
-        )*/
-        );
+        ));
   }
 }
 

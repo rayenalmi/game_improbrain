@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:game1/Logo/testlogo1.dart';
-import 'package:game1/Logo/tow_cercle.dart';
+import 'package:game1/Shapes/testlogo1.dart';
 
 import '../Start/loading.dart';
 

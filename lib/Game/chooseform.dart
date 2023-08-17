@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:game1/Game/choose_sep.dart';
-import 'package:game1/Logo/testlogo1.dart';
-import 'package:game1/Logo/tow_cercle.dart';
-
-import '../Start/loading.dart';
 
 class chooseform extends StatefulWidget {
   const chooseform({super.key});
