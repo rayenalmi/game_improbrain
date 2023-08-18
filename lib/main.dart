@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:game1/Shapes/shape1.dart';
+import 'package:game1/Shapes/shape2.dart';
 
 import 'package:game1/Start/start.dart';
 
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
           child: RepaintBoundary(
               child: CustomPaint(
             size: const Size(250, 250),
-            foregroundPainter: shape1(null, null, 0),
+            foregroundPainter: shape2(null, null, 0),
           )),
         ));
   }
