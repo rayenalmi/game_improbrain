@@ -482,7 +482,11 @@ class shape1 extends CustomPainter {
         paint_19_stroke);
 
     Paint paint_19_fill = Paint()..style = PaintingStyle.fill;
-    paint_19_fill.color = Colors.red; // main color sep separation
+    paint_19_fill.color = sep != 6
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 6
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.1956470, size.height * 0.1892522),
@@ -502,7 +506,11 @@ class shape1 extends CustomPainter {
         paint_20_stroke);
 
     Paint paint_20_fill = Paint()..style = PaintingStyle.fill;
-    paint_20_fill.color = Colors.transparent; // main color sep separation
+    paint_20_fill.color = sep != 6
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 6
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.7658420, size.height * 0.1892522),
@@ -522,7 +530,11 @@ class shape1 extends CustomPainter {
         paint_21_stroke);
 
     Paint paint_21_fill = Paint()..style = PaintingStyle.fill;
-    paint_21_fill.color = Colors.transparent; // main color sep separation
+    paint_21_fill.color = sep != 6
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 6
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.1956470, size.height * 0.7196408),
@@ -542,7 +554,11 @@ class shape1 extends CustomPainter {
         paint_22_stroke);
 
     Paint paint_22_fill = Paint()..style = PaintingStyle.fill;
-    paint_22_fill.color = Colors.transparent; // main color sep separation
+    paint_22_fill.color = sep != 6
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 6
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.7658420, size.height * 0.7196408),
@@ -577,7 +593,11 @@ class shape1 extends CustomPainter {
     canvas.drawPath(path_23, paint_23_stroke);
 
     Paint paint_23_fill = Paint()..style = PaintingStyle.fill;
-    paint_23_fill.color = Colors.transparent; // main color sep separation
+    paint_23_fill.color = sep != 5
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 5
     canvas.drawPath(path_23, paint_23_fill);
 
     Path path_24 = Path();
