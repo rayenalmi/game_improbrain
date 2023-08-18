@@ -482,7 +482,7 @@ class shape1 extends CustomPainter {
         paint_19_stroke);
 
     Paint paint_19_fill = Paint()..style = PaintingStyle.fill;
-    paint_19_fill.color = Colors.transparent; // main color sep separation
+    paint_19_fill.color = Colors.red; // main color sep separation
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.1956470, size.height * 0.1892522),
