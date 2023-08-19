@@ -391,7 +391,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_12, paint_12_stroke);
 
     Paint paint_12_fill = Paint()..style = PaintingStyle.fill;
-    paint_12_fill.color = Colors.transparent; // main color sep separation
+    paint_12_fill.color = sep != 7
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 7
     canvas.drawPath(path_12, paint_12_fill);
 
     Path path_13 = Path();
@@ -410,7 +414,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_13, paint_13_stroke);
 
     Paint paint_13_fill = Paint()..style = PaintingStyle.fill;
-    paint_13_fill.color = Colors.transparent; // main color sep separation
+    paint_13_fill.color = sep != 7
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 7
     canvas.drawPath(path_13, paint_13_fill);
 
     Path path_14 = Path();
@@ -434,7 +442,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_14, paint_14_stroke);
 
     Paint paint_14_fill = Paint()..style = PaintingStyle.fill;
-    paint_14_fill.color = Colors.transparent; // main color sep separation
+    paint_14_fill.color = sep != 7
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 7
     canvas.drawPath(path_14, paint_14_fill);
 
     Path path_15 = Path();
@@ -458,7 +470,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_15, paint_15_stroke);
 
     Paint paint_15_fill = Paint()..style = PaintingStyle.fill;
-    paint_15_fill.color = Colors.transparent; // main color sep separation
+    paint_15_fill.color = sep != 7
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 7
     canvas.drawPath(path_15, paint_15_fill);
 
     Path path_16 = Path();
@@ -482,7 +498,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_16, paint_16_stroke);
 
     Paint paint_16_fill = Paint()..style = PaintingStyle.fill;
-    paint_16_fill.color = Colors.transparent; // main color sep separation
+    paint_16_fill.color = sep != 7
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 7
     canvas.drawPath(path_16, paint_16_fill);
 
     Path path_17 = Path();
@@ -506,7 +526,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_17, paint_17_stroke);
 
     Paint paint_17_fill = Paint()..style = PaintingStyle.fill;
-    paint_17_fill.color = Colors.transparent; // main color sep separation
+    paint_17_fill.color = sep != 7
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 7
     canvas.drawPath(path_17, paint_17_fill);
 
     Path path_18 = Path();
@@ -529,7 +553,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_18, paint_18_stroke);
 
     Paint paint_18_fill = Paint()..style = PaintingStyle.fill;
-    paint_18_fill.color = Colors.transparent; // main color sep separation
+    paint_18_fill.color = sep != 7
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 7
     canvas.drawPath(path_18, paint_18_fill);
 
     Path path_19 = Path();
@@ -559,7 +587,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_19, paint_19_stroke);
 
     Paint paint_19_fill = Paint()..style = PaintingStyle.fill;
-    paint_19_fill.color = Colors.transparent; // main color sep separation
+    paint_19_fill.color = sep != 7
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 7
     canvas.drawPath(path_19, paint_19_fill);
 
     Paint paint_20_stroke = Paint()
@@ -574,7 +606,11 @@ class shape2 extends CustomPainter {
         paint_20_stroke);
 
     Paint paint_20_fill = Paint()..style = PaintingStyle.fill;
-    paint_20_fill.color = Colors.transparent; // main color sep separation
+    paint_20_fill.color = sep != 6
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 6
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.2293741, size.height * 0.2139688),
@@ -594,7 +630,11 @@ class shape2 extends CustomPainter {
         paint_21_stroke);
 
     Paint paint_21_fill = Paint()..style = PaintingStyle.fill;
-    paint_21_fill.color = Colors.transparent; // main color sep separation
+    paint_21_fill.color = sep != 6
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 6
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.7313864, size.height * 0.2139688),
@@ -614,7 +654,11 @@ class shape2 extends CustomPainter {
         paint_22_stroke);
 
     Paint paint_22_fill = Paint()..style = PaintingStyle.fill;
-    paint_22_fill.color = Colors.transparent; // main color sep separation
+    paint_22_fill.color = sep != 6
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 6
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.2293741, size.height * 0.7356188),
@@ -634,7 +678,11 @@ class shape2 extends CustomPainter {
         paint_23_stroke);
 
     Paint paint_23_fill = Paint()..style = PaintingStyle.fill;
-    paint_23_fill.color = Colors.transparent; // main color sep separation
+    paint_23_fill.color = sep != 6
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 6
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.7313864, size.height * 0.7356188),
@@ -691,7 +739,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_24, paint_24_stroke);
 
     Paint paint_24_fill = Paint()..style = PaintingStyle.fill;
-    paint_24_fill.color = Colors.transparent; // main color sep separation
+    paint_24_fill.color = sep != 5
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 5
     canvas.drawPath(path_24, paint_24_fill);
 
     Path path_25 = Path();
@@ -764,7 +816,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_25, paint_25_stroke);
 
     Paint paint_25_fill = Paint()..style = PaintingStyle.fill;
-    paint_25_fill.color = Colors.transparent; // main color sep separation
+    paint_25_fill.color = sep != 4
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 4
     canvas.drawPath(path_25, paint_25_fill);
 
     Path path_26 = Path();
@@ -784,7 +840,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_26, paint_26_stroke);
 
     Paint paint_26_fill = Paint()..style = PaintingStyle.fill;
-    paint_26_fill.color = Colors.transparent; // main color sep separation
+    paint_26_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_26, paint_26_fill);
 
     Path path_27 = Path();
@@ -804,7 +864,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_27, paint_27_stroke);
 
     Paint paint_27_fill = Paint()..style = PaintingStyle.fill;
-    paint_27_fill.color = Colors.transparent; // main color sep separation
+    paint_27_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_27, paint_27_fill);
 
     Path path_28 = Path();
@@ -824,7 +888,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_28, paint_28_stroke);
 
     Paint paint_28_fill = Paint()..style = PaintingStyle.fill;
-    paint_28_fill.color = Colors.transparent; // main color sep separation
+    paint_28_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_28, paint_28_fill);
 
     Path path_29 = Path();
@@ -849,7 +917,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_29, paint_29_stroke);
 
     Paint paint_29_fill = Paint()..style = PaintingStyle.fill;
-    paint_29_fill.color = Colors.transparent; // main color sep separation
+    paint_29_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_29, paint_29_fill);
 
     Path path_30 = Path();
@@ -869,7 +941,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_30, paint_30_stroke);
 
     Paint paint_30_fill = Paint()..style = PaintingStyle.fill;
-    paint_30_fill.color = Colors.transparent; // main color sep separation
+    paint_30_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_30, paint_30_fill);
 
     Path path_31 = Path();
@@ -889,7 +965,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_31, paint_31_stroke);
 
     Paint paint_31_fill = Paint()..style = PaintingStyle.fill;
-    paint_31_fill.color = Colors.transparent; // main color sep separation
+    paint_31_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_31, paint_31_fill);
 
     Path path_32 = Path();
@@ -909,7 +989,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_32, paint_32_stroke);
 
     Paint paint_32_fill = Paint()..style = PaintingStyle.fill;
-    paint_32_fill.color = Colors.transparent; // main color sep separation
+    paint_32_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_32, paint_32_fill);
 
     Path path_33 = Path();
@@ -932,7 +1016,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_33, paint_33_stroke);
 
     Paint paint_33_fill = Paint()..style = PaintingStyle.fill;
-    paint_33_fill.color = Colors.transparent; // main color sep separation
+    paint_33_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_33, paint_33_fill);
 
     Path path_34 = Path();
@@ -952,7 +1040,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_34, paint_34_stroke);
 
     Paint paint_34_fill = Paint()..style = PaintingStyle.fill;
-    paint_34_fill.color = Colors.transparent; // main color sep separation
+    paint_34_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_34, paint_34_fill);
 
     Path path_35 = Path();
@@ -972,7 +1064,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_35, paint_35_stroke);
 
     Paint paint_35_fill = Paint()..style = PaintingStyle.fill;
-    paint_35_fill.color = Colors.transparent; // main color sep separation
+    paint_35_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_35, paint_35_fill);
 
     Path path_36 = Path();
@@ -992,7 +1088,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_36, paint_36_stroke);
 
     Paint paint_36_fill = Paint()..style = PaintingStyle.fill;
-    paint_36_fill.color = Colors.transparent; // main color sep separation
+    paint_36_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_36, paint_36_fill);
 
     Path path_37 = Path();
@@ -1022,7 +1122,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_37, paint_37_stroke);
 
     Paint paint_37_fill = Paint()..style = PaintingStyle.fill;
-    paint_37_fill.color = Colors.transparent; // main color sep separation
+    paint_37_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_37, paint_37_fill);
 
     Path path_38 = Path();
@@ -1042,7 +1146,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_38, paint_38_stroke);
 
     Paint paint_38_fill = Paint()..style = PaintingStyle.fill;
-    paint_38_fill.color = Colors.transparent; // main color sep separation
+    paint_38_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_38, paint_38_fill);
 
     Path path_39 = Path();
@@ -1062,7 +1170,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_39, paint_39_stroke);
 
     Paint paint_39_fill = Paint()..style = PaintingStyle.fill;
-    paint_39_fill.color = Colors.transparent; // main color sep separation
+    paint_39_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_39, paint_39_fill);
 
     Path path_40 = Path();
@@ -1082,7 +1194,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_40, paint_40_stroke);
 
     Paint paint_40_fill = Paint()..style = PaintingStyle.fill;
-    paint_40_fill.color = Colors.transparent; // main color sep separation
+    paint_40_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_40, paint_40_fill);
 
     Path path_41 = Path();
@@ -1113,7 +1229,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_41, paint_41_stroke);
 
     Paint paint_41_fill = Paint()..style = PaintingStyle.fill;
-    paint_41_fill.color = Colors.transparent; // main color sep separation
+    paint_41_fill.color = sep != 3
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 3
     canvas.drawPath(path_41, paint_41_fill);
 
     Path path_42 = Path();
@@ -1150,7 +1270,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_42, paint_42_stroke);
 
     Paint paint_42_fill = Paint()..style = PaintingStyle.fill;
-    paint_42_fill.color = Colors.transparent; // main color sep separation
+    paint_42_fill.color = sep != 2
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 2
     canvas.drawPath(path_42, paint_42_fill);
 
     Path path_43 = Path();
@@ -1187,7 +1311,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_43, paint_43_stroke);
 
     Paint paint_43_fill = Paint()..style = PaintingStyle.fill;
-    paint_43_fill.color = Colors.transparent; // main color sep separation
+    paint_43_fill.color = sep != 1
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 1
     canvas.drawPath(path_43, paint_43_fill);
 
     Path path_44 = Path();
@@ -1204,7 +1332,11 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_44, paint_44_stroke);
 
     Paint paint_44_fill = Paint()..style = PaintingStyle.fill;
-    paint_44_fill.color = Colors.transparent; // main color sep separation
+    paint_44_fill.color = sep != 1
+        ? Color(0xfffbb040).withOpacity(0)
+        : (secondColor ??
+            Colors.grey.withOpacity(
+                1.0)); // main color sep separation for separation num 1
     canvas.drawPath(path_44, paint_44_fill);
   }
 

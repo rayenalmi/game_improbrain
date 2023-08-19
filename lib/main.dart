@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game1/Game/getShape.dart';
 import 'package:game1/Shapes/shape1.dart';
 import 'package:game1/Shapes/shape2.dart';
 
@@ -35,14 +36,16 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: /*const start()*/ Container(
+        home: const getShape()
+        /*const start()*/ /*Container(
           color: const Color(0xffffffff),
           child: RepaintBoundary(
               child: CustomPaint(
             size: const Size(250, 250),
             foregroundPainter: shape2(null, null, 0),
           )),
-        ));
+        )*/
+        );
   }
 }
 
