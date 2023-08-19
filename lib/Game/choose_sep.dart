@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:game1/Shapes/testlogo1.dart';
 
+import '../Shapes/shape1.dart';
+import '../Shapes/shape2.dart';
 import '../Start/loading.dart';
 
 class choose_sep extends StatefulWidget {
-  const choose_sep({super.key});
+  int numShape;
+  choose_sep({super.key, required this.numShape});
 
   @override
   State<choose_sep> createState() => _choose_sepState();
@@ -61,8 +63,8 @@ class _choose_sepState extends State<choose_sep> {
     // Add more colors as neededs
   ];
 
-  Color? colorsSelected1;
-  Color? colorsSelected2;
+  late Color colorsSelected1 = Colors.white;
+  late Color colorsSelected2 = Colors.grey;
 
   Widget widgetColor(int i, int colornumber) {
     bool select = false;
@@ -131,6 +133,16 @@ class _choose_sepState extends State<choose_sep> {
         ),
       ),
     );
+  }
+
+  CustomPainter? chooseShape(Color main, Color second, int numSep) {
+    print("num shape on choose sep ${widget.numShape}");
+    if (widget.numShape == 1) {
+      return shape1(main, second, numSep);
+    } else if (widget.numShape == 2) {
+      return shape2(main, second, numSep);
+    }
+    return null;
   }
 
   @override
@@ -226,7 +238,7 @@ class _choose_sepState extends State<choose_sep> {
             ),
             CustomPaint(
                 size: const Size(150, 150),
-                foregroundPainter: testLogo(colorsSelected1, colorsSelected2,
+                foregroundPainter: chooseShape(colorsSelected1, colorsSelected2,
                     numberSep) // tow_cercle(colorsSelected),
                 ),
             const SizedBox(

@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:game1/Game/chooseform.dart';
 import 'package:game1/Start/start.dart';
 
+import '../Game/getShape.dart';
+
 class loading extends StatefulWidget {
   const loading({super.key});
 
@@ -21,7 +23,7 @@ class _loadingState extends State<loading> {
       () => Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => const chooseform(),
+          builder: (context) => const getShape(),
         ),
       ),
     );

@@ -46,46 +46,6 @@ class _chooseformState extends State<chooseform> {
     );
   }
 
-  final List<Color> colorList = [
-    Colors.white,
-    Colors.red,
-    Colors.green,
-    Colors.blue,
-    Colors.orange,
-    Colors.purple,
-    Colors.yellow,
-    // Add more colors as needed
-  ];
-
-  Color colorsSelected = Colors.white;
-
-  Widget widgetColor(int i) {
-    bool select;
-    select = colorsSelected == colorList[i];
-    return Container(
-      padding: const EdgeInsets.only(left: 5, right: 5),
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: () {
-          setState(() {
-            colorsSelected = colorList[i];
-          });
-        },
-        child: Container(
-          decoration: BoxDecoration(
-            color: colorList[i],
-            border: Border.all(
-              color: Colors.black,
-              width: select ? 4.0 : 0,
-            ),
-          ),
-          width: 45,
-          height: 45,
-        ),
-      ),
-    );
-  }
-
   int numberShape = 0;
   Widget widgetShape(int i) {
     bool select;
@@ -209,7 +169,9 @@ class _chooseformState extends State<chooseform> {
               onTap: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const choose_sep(),
+                  builder: (context) => choose_sep(
+                    numShape: numberShape,
+                  ),
                 ),
               ),
               child: BigButtun("Choose Form", context),
