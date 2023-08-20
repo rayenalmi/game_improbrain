@@ -104,7 +104,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_1, paint_1_stroke);
 
     Paint paint_1_fill = Paint()..style = PaintingStyle.fill;
-    paint_1_fill.color = sep != 8
+    paint_1_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -130,7 +130,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_2, paint_2_stroke);
 
     Paint paint_2_fill = Paint()..style = PaintingStyle.fill;
-    paint_2_fill.color = sep != 8
+    paint_2_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -156,7 +156,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_3, paint_3_stroke);
 
     Paint paint_3_fill = Paint()..style = PaintingStyle.fill;
-    paint_3_fill.color = sep != 8
+    paint_3_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -182,7 +182,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_4, paint_4_stroke);
 
     Paint paint_4_fill = Paint()..style = PaintingStyle.fill;
-    paint_4_fill.color = sep != 8
+    paint_4_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -208,7 +208,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_5, paint_5_stroke);
 
     Paint paint_5_fill = Paint()..style = PaintingStyle.fill;
-    paint_5_fill.color = sep != 8
+    paint_5_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -234,7 +234,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_6, paint_6_stroke);
 
     Paint paint_6_fill = Paint()..style = PaintingStyle.fill;
-    paint_6_fill.color = sep != 8
+    paint_6_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -260,7 +260,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_7, paint_7_stroke);
 
     Paint paint_7_fill = Paint()..style = PaintingStyle.fill;
-    paint_7_fill.color = sep != 8
+    paint_7_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -286,7 +286,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_8, paint_8_stroke);
 
     Paint paint_8_fill = Paint()..style = PaintingStyle.fill;
-    paint_8_fill.color = sep != 8
+    paint_8_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -312,7 +312,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_9, paint_9_stroke);
 
     Paint paint_9_fill = Paint()..style = PaintingStyle.fill;
-    paint_9_fill.color = sep != 8
+    paint_9_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -338,7 +338,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_10, paint_10_stroke);
 
     Paint paint_10_fill = Paint()..style = PaintingStyle.fill;
-    paint_10_fill.color = sep != 8
+    paint_10_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -364,7 +364,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_11, paint_11_stroke);
 
     Paint paint_11_fill = Paint()..style = PaintingStyle.fill;
-    paint_11_fill.color = sep != 8
+    paint_11_fill.color = sep != 4
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -391,7 +391,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_12, paint_12_stroke);
 
     Paint paint_12_fill = Paint()..style = PaintingStyle.fill;
-    paint_12_fill.color = sep != 7
+    paint_12_fill.color = sep != 3
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -414,7 +414,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_13, paint_13_stroke);
 
     Paint paint_13_fill = Paint()..style = PaintingStyle.fill;
-    paint_13_fill.color = sep != 7
+    paint_13_fill.color = sep != 3
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -442,7 +442,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_14, paint_14_stroke);
 
     Paint paint_14_fill = Paint()..style = PaintingStyle.fill;
-    paint_14_fill.color = sep != 7
+    paint_14_fill.color = sep != 3
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -470,7 +470,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_15, paint_15_stroke);
 
     Paint paint_15_fill = Paint()..style = PaintingStyle.fill;
-    paint_15_fill.color = sep != 7
+    paint_15_fill.color = sep != 3
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -498,7 +498,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_16, paint_16_stroke);
 
     Paint paint_16_fill = Paint()..style = PaintingStyle.fill;
-    paint_16_fill.color = sep != 7
+    paint_16_fill.color = sep != 3
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -526,7 +526,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_17, paint_17_stroke);
 
     Paint paint_17_fill = Paint()..style = PaintingStyle.fill;
-    paint_17_fill.color = sep != 7
+    paint_17_fill.color = sep != 3
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -553,7 +553,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_18, paint_18_stroke);
 
     Paint paint_18_fill = Paint()..style = PaintingStyle.fill;
-    paint_18_fill.color = sep != 7
+    paint_18_fill.color = sep != 3
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -587,7 +587,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_19, paint_19_stroke);
 
     Paint paint_19_fill = Paint()..style = PaintingStyle.fill;
-    paint_19_fill.color = sep != 7
+    paint_19_fill.color = sep != 3
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -606,7 +606,7 @@ class shape2 extends CustomPainter {
         paint_20_stroke);
 
     Paint paint_20_fill = Paint()..style = PaintingStyle.fill;
-    paint_20_fill.color = sep != 6
+    paint_20_fill.color = sep != 2
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -630,7 +630,7 @@ class shape2 extends CustomPainter {
         paint_21_stroke);
 
     Paint paint_21_fill = Paint()..style = PaintingStyle.fill;
-    paint_21_fill.color = sep != 6
+    paint_21_fill.color = sep != 2
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -654,7 +654,7 @@ class shape2 extends CustomPainter {
         paint_22_stroke);
 
     Paint paint_22_fill = Paint()..style = PaintingStyle.fill;
-    paint_22_fill.color = sep != 6
+    paint_22_fill.color = sep != 2
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -678,7 +678,7 @@ class shape2 extends CustomPainter {
         paint_23_stroke);
 
     Paint paint_23_fill = Paint()..style = PaintingStyle.fill;
-    paint_23_fill.color = sep != 6
+    paint_23_fill.color = sep != 2
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -816,7 +816,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_25, paint_25_stroke);
 
     Paint paint_25_fill = Paint()..style = PaintingStyle.fill;
-    paint_25_fill.color = sep != 4
+    paint_25_fill.color = sep != 8
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -840,7 +840,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_26, paint_26_stroke);
 
     Paint paint_26_fill = Paint()..style = PaintingStyle.fill;
-    paint_26_fill.color = sep != 3
+    paint_26_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -864,7 +864,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_27, paint_27_stroke);
 
     Paint paint_27_fill = Paint()..style = PaintingStyle.fill;
-    paint_27_fill.color = sep != 3
+    paint_27_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -888,7 +888,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_28, paint_28_stroke);
 
     Paint paint_28_fill = Paint()..style = PaintingStyle.fill;
-    paint_28_fill.color = sep != 3
+    paint_28_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -917,7 +917,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_29, paint_29_stroke);
 
     Paint paint_29_fill = Paint()..style = PaintingStyle.fill;
-    paint_29_fill.color = sep != 3
+    paint_29_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -941,7 +941,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_30, paint_30_stroke);
 
     Paint paint_30_fill = Paint()..style = PaintingStyle.fill;
-    paint_30_fill.color = sep != 3
+    paint_30_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -965,7 +965,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_31, paint_31_stroke);
 
     Paint paint_31_fill = Paint()..style = PaintingStyle.fill;
-    paint_31_fill.color = sep != 3
+    paint_31_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -989,7 +989,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_32, paint_32_stroke);
 
     Paint paint_32_fill = Paint()..style = PaintingStyle.fill;
-    paint_32_fill.color = sep != 3
+    paint_32_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1016,7 +1016,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_33, paint_33_stroke);
 
     Paint paint_33_fill = Paint()..style = PaintingStyle.fill;
-    paint_33_fill.color = sep != 3
+    paint_33_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1040,7 +1040,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_34, paint_34_stroke);
 
     Paint paint_34_fill = Paint()..style = PaintingStyle.fill;
-    paint_34_fill.color = sep != 3
+    paint_34_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1064,7 +1064,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_35, paint_35_stroke);
 
     Paint paint_35_fill = Paint()..style = PaintingStyle.fill;
-    paint_35_fill.color = sep != 3
+    paint_35_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1088,7 +1088,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_36, paint_36_stroke);
 
     Paint paint_36_fill = Paint()..style = PaintingStyle.fill;
-    paint_36_fill.color = sep != 3
+    paint_36_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1122,7 +1122,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_37, paint_37_stroke);
 
     Paint paint_37_fill = Paint()..style = PaintingStyle.fill;
-    paint_37_fill.color = sep != 3
+    paint_37_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1146,7 +1146,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_38, paint_38_stroke);
 
     Paint paint_38_fill = Paint()..style = PaintingStyle.fill;
-    paint_38_fill.color = sep != 3
+    paint_38_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1170,7 +1170,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_39, paint_39_stroke);
 
     Paint paint_39_fill = Paint()..style = PaintingStyle.fill;
-    paint_39_fill.color = sep != 3
+    paint_39_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1194,7 +1194,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_40, paint_40_stroke);
 
     Paint paint_40_fill = Paint()..style = PaintingStyle.fill;
-    paint_40_fill.color = sep != 3
+    paint_40_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1229,7 +1229,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_41, paint_41_stroke);
 
     Paint paint_41_fill = Paint()..style = PaintingStyle.fill;
-    paint_41_fill.color = sep != 3
+    paint_41_fill.color = sep != 7
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1270,7 +1270,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_42, paint_42_stroke);
 
     Paint paint_42_fill = Paint()..style = PaintingStyle.fill;
-    paint_42_fill.color = sep != 2
+    paint_42_fill.color = sep != 1
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1311,7 +1311,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_43, paint_43_stroke);
 
     Paint paint_43_fill = Paint()..style = PaintingStyle.fill;
-    paint_43_fill.color = sep != 1
+    paint_43_fill.color = sep != 6
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(
@@ -1332,7 +1332,7 @@ class shape2 extends CustomPainter {
     canvas.drawPath(path_44, paint_44_stroke);
 
     Paint paint_44_fill = Paint()..style = PaintingStyle.fill;
-    paint_44_fill.color = sep != 1
+    paint_44_fill.color = sep != 6
         ? Color(0xfffbb040).withOpacity(0)
         : (secondColor ??
             Colors.grey.withOpacity(

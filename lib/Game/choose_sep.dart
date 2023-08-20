@@ -136,7 +136,7 @@ class _choose_sepState extends State<choose_sep> {
   }
 
   CustomPainter? chooseShape(Color main, Color second, int numSep) {
-    print("num shape on choose sep ${widget.numShape}");
+    print("num shape ${widget.numShape} num sep ${numSep}");
     if (widget.numShape == 1) {
       return shape1(main, second, numSep);
     } else if (widget.numShape == 2) {
